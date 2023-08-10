@@ -56,7 +56,7 @@ const routes=[
 
 const router=createRouter({
     routes,
-    history:createWebHashHistory()
+    history:createWebHashHistory('/booklike/')
 })
 //routerı export etmeden önce 
 router.beforeEach((to,from,next)=>{ //bir componentin her işleminden önce bir hook yaratır.
