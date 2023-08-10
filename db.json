@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "username": "yeni1",
+      "fullname": "yeni",
+      "password": "2c51c34ce625deaaf18436cbba5d8531d0510a6c",
+      "id": 1
+    },
+    {
+      "username": "yeni2",
+      "fullname": "yeni",
+      "password": "ebdf6be86b6df381f974a8345b8248e8645d348f",
+      "id": 2
+    },
+    {
+      "username": null,
+      "fullname": null,
+      "password": "dc110f5d335035e673e6bd15fb796401af095080",
+      "id": 3
+    },
+    {
+      "username": "yeni2",
+      "fullname": "yeni2",
+      "password": "ebdf6be86b6df381f974a8345b8248e8645d348f",
+      "id": 4
+    }
+  ],
+  "user_likes": [
+    {
+      "userId": 2,
+      "bookmarkId": 1,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "bookmarkId": 1,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "bookmarkId": 1,
+      "id": 3
+    }
+  ],
+  "user_bookmarks": [
+    {
+      "userId": 2,
+      "bookmarkId": 2,
+      "id": 1
+    }
+  ],
+  "bookmarks": [
+    {
+      "title": "book1",
+      "url": "www.book1.com",
+      "categoryId": 3,
+      "description": "book 1 deneme",
+      "userId": 1,
+      "created_at": "2023-07-21T08:13:56.037Z",
+      "id": 1
+    },
+    {
+      "title": "book2",
+      "url": "www.book2.com",
+      "categoryId": 5,
+      "description": "book2 deneme ",
+      "userId": 1,
+      "created_at": "2023-07-21T08:23:59.024Z",
+      "id": 2
+    },
+    {
+      "title": "poem1",
+      "url": "www.poem1.com",
+      "categoryId": 6,
+      "description": "poem1 açıklama ",
+      "userId": 2,
+      "created_at": "2023-07-21T09:49:52.267Z",
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "name": "Vue.js",
+      "id": 1
+    },
+    {
+      "name": "React.js",
+      "id": 2
+    },
+    {
+      "name": "Frontend",
+      "id": 3
+    },
+    {
+      "name": "Backend",
+      "id": 4
+    },
+    {
+      "name": "Cloud",
+      "id": 5
+    },
+    {
+      "name": "Sosyal",
+      "id": 6
+    }
+  ]
+}
